@@ -1,0 +1,16 @@
+{
+  "name": "training-dataset-cache-eviction-planner",
+  "version": "1.0.0",
+  "description": "规划训练样本缓存的预取与淘汰：跨 epoch 局部性、共享样本保护与停顿估计",
+  "type": "module",
+  "main": "src/planner.js",
+  "bin": {
+    "cache-planner": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
